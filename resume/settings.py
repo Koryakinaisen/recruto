@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'default-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['deepra_test_task.com']
+ALLOWED_HOSTS = ['.render.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
